@@ -14,7 +14,7 @@ public class Main {
         }
 
         for(int i = 0; i < 3; i++) {
-            for(int j = 0; j < char_array_input.length * 4; j++) {
+            for(int j = 0; j < char_array_input.length * 4 - 1; j++) {
                 System.out.print(char_array_output[i][j]);
             }
             System.out.println();
